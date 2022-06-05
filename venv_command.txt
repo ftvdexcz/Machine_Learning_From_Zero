@@ -1,0 +1,20 @@
+- tạo venv mới: python -m venv "tên"
+python -m venv my-venv-1
+
+- kích hoạt venv: "tên"\Scripts\activate
+my-venv-1\Scripts\activate
+
+- thoát khỏi venv: deactivate
+
+- hiển thị danh sách thư viện của venv và xuất ra file
+pip freeze > requirements.txt
+-- xem file: more requirements.txt
+
+---------- Thư viện quản lý venv: pip install virtualenvwrapper
+
+- tạo venv mới: mkvirtualenv "tên"
+mkvirtualenv new-venv-a
+
+- hiển thị danh sách venv: workon 
+
+- kích hoạt: workon "tên"
